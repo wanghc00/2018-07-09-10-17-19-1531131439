@@ -1,4 +1,31 @@
 package practice01;
 
 public class Person {
+
+    /**
+     * @param string
+     * @param i
+     */
+    private String name;
+    private int age;
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public Person(String name, int age) {
+        // TODO Auto-generated constructor stub
+        this.name=name;
+        this.age=age;
+    }
+    public String introduce() {
+        return "My name is "+name+". I am "+age+" years old.";
+    }
 }
