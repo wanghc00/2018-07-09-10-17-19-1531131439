@@ -2,10 +2,6 @@ package practice01;
 
 public class Person {
 
-    /**
-     * @param string
-     * @param i
-     */
     private String name;
     private int age;
     public String getName() {
